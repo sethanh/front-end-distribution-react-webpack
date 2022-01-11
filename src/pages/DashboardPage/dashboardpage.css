@@ -1,0 +1,52 @@
+.menuCus{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkorchid;
+}
+.bginfoday{
+    width: 75%;
+}
+.bgIKL{
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #0094da;
+    position: relative;
+}
+.iconcenterc{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 10px;
+    height: 10px;
+    color: white;
+}
+.bdKQBH{
+    border-left: solid #dbd9d3 1px;
+    border-right: solid #dbd9d3 1px;
+}
+.bgselectedT{
+    flex-grow:1;
+    height:'100%';
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+.bgselectedT:hover{
+background-color: turquoise;
+}
+.bdbt{
+    border-top: turquoise 1px solid;
+}
+.cltt{
+    background-color: '#0094da'; 
+    position: 'relative' 
+}

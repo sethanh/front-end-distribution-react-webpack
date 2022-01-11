@@ -1,0 +1,129 @@
+.bgpanelpop{
+    margin-top: 10px;
+    background-color: white;
+    height: 150px;
+    width: 500px;
+    border-radius: 2px;
+    padding: 15px 30px 15px 30px;
+    position: relative;
+
+}
+.iconout{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 15px;
+    height: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 12.5px;
+}
+.clicon:hover{
+    color: hotpink;
+}
+.h1action99{
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2e2e2a;
+}
+.paction99{
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+    color: #2e2e2a;
+}
+.bgbtnac99{
+    flex-grow: 1;
+}
+.btn99{
+    height: 38px;
+    background-color: #4bac4d;
+    width: 180px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 38px;
+    color:white;
+    font-weight: 600;
+    font-size: 13px;
+}
+.fsic15{
+    font-size: 15px;
+}
+.btn99:hover{
+    background-color: #158c1c;
+  }
+.itemcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.bgbody{
+    width: 850px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.bginput1{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+}
+.hvitem:hover{
+    background-color: #4bac4d;
+}
+.flexsh{
+    flex-wrap: wrap;
+    display: flex;
+}
+.scrollbg{
+    width:245px;
+    height:200px;
+    position:absolute;
+    top:25px;
+    left:20px;
+    z-index:100;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.contentscr{
+    width:245px;
+    height:25px;
+    line-height: 25px;
+    text-align: left;
+    padding-left: 10px;
+    overflow:hidden;
+}
+.contentscr:hover{
+    background-color:#4bac4d ;
+}
+.cl01{
+    background-color: #f9f9f9;
+}
+.cl02{
+    background-color: white;
+    border-color: #f9f9f9;
+    border-width: 2px;
+}
+.scrollbg::-webkit-scrollbar{
+    width: 10px;
+}
+.scrollbg::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+.scrollbg::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
